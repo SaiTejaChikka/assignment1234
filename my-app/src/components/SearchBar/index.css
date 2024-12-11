@@ -1,0 +1,29 @@
+.search-bar {
+    position: relative;
+  }
+  
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 8px;
+    padding: 0;
+    list-style: none;
+    color: black;
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+
+  }
+  
+  .suggestion-item:hover {
+    background-color: white;
+  }
+  
